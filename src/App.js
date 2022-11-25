@@ -7,6 +7,9 @@ import Contact from './Pages/Contact';
 import Home from './Pages/Home';
 import Project from './Pages/Project';
 import Footer from './Component/Footer';
+import Study from './Pages/Study';
+import DSA from './Pages/Study/DSA';
+import C from './Pages/Study/C';
 function App() {
   return (
     <>
@@ -16,6 +19,9 @@ function App() {
        <Route path='/about' element={<About/>}/>
        <Route path='/contact' element={<Contact/>}/>
        <Route path='/project' element={<Project/>}/>
+       <Route path='/study' element={<Study/>}/>
+       <Route path='/DSA.js' element={<DSA/>}/>
+       <Route path='/c.js' element={<C/>}/>
       </Routes>
       <Footer/>
     </>
