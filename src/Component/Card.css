@@ -50,3 +50,25 @@
     text-decoration: none;
     color: white;
 }
+
+
+/* classification of Data structure */
+
+
+
+
+/* Leetcode  */
+.ankr{
+  background-color: yellow;
+  color: black;
+  text-decoration: none;
+}
+
+
+.ankr:hover{
+  transition: 0.5s;
+  background-color:  rgb(126, 126, 223);
+  color: white;
+  border-radius: 6px;
+  text-transform: capitalize;
+}

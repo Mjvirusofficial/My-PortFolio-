@@ -1,28 +1,59 @@
 import dsa from './Img/dsa.gif'
-import c from './Img/c.png'
-import c2 from './Img/c2.webp'
+import Queue from './Img/queue.jpeg'
+import ll from './Img/ll.js.jpeg'
+import leetcode from './Img/Leetcode.png'
+import energy from './Img/energy.jpg'
+import graph from './Img/graph.png'
+
+
+// import Stack from './Img/Stack.js.mp4'
+
+// import c2 from './Img/c2.webp'
 
 let StudyData = [
     {
         img: dsa,
         tittle: 'Data Structure Algoritham',
         desc: 'Data Structure Algoritham are two different thing first is Data Structure & Second is Algoritham',
-        visit: '/DSA.js'
+        visit: '/DSA'
     },
 
     {
-        img: c2,
-        tittle: 'C Language',
-        desc: 'Topic coming Soon..',
-        visit: '/c.js'
+        img: Queue,
+        tittle: 'Queue',
+        desc: 'Queue is a linear Data structure, which works on principle "FIFO" means First In First Out,',
+        visit: '/queue'
     },   
+
+    {
+        img: graph,
+        tittle: 'Graph Theory',
+        desc: 'Graph Theory Unit-4 Discreate Structure || Graph = (V,E) means, Graph is a collection of set of vertex and edegs.',
+        visit: '/graph'
+    },
+    
     
     {
-        img: c,
-        tittle: 'Graph Theory',
-        desc: 'Topic coming Soon..',
+        img: ll,
+        tittle: 'Linked List',
+        desc: 'Linked List is also a linear data structure that include series of connected Nodes.',
+        visit: '/linkedlist'
     },
 
+    {
+        img: energy,
+        tittle: 'Energy',
+        desc: 'Energy is a ability to do work, means any works done by the help of that thing that is known as energy.',
+        visit: '/energy'
+    },
+
+  
+    {
+        img: leetcode,
+        tittle: 'Leetcode Problems',
+        desc: 'LeetCode is the best platform to help you enhance your skills, expand your knowledge and prepare for technical interviews',
+        visit: '/leetcode'
+    },
 ]
 
 export default StudyData;

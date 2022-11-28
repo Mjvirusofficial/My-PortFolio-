@@ -10,6 +10,11 @@ import Footer from './Component/Footer';
 import Study from './Pages/Study';
 import DSA from './Pages/Study/DSA';
 import C from './Pages/Study/C';
+import Queue from './Pages/Study/Queue';
+import LinkedList from './Pages/Study/LinkedList';
+import Graph from './Pages/Study/Graph';
+import Energy from './Pages/Study/Energy';
+import Leetcode from './Pages/Study/Leetcode';
 function App() {
   return (
     <>
@@ -20,8 +25,15 @@ function App() {
        <Route path='/contact' element={<Contact/>}/>
        <Route path='/project' element={<Project/>}/>
        <Route path='/study' element={<Study/>}/>
-       <Route path='/DSA.js' element={<DSA/>}/>
-       <Route path='/c.js' element={<C/>}/>
+       <Route path='/DSA' element={<DSA/>}/>
+       <Route path='/c' element={<C/>}/>
+       <Route path='/queue' element={<Queue/>}/>
+       <Route path='/linkedlist' element={<LinkedList/>}/>
+       <Route path='/graph' element={<Graph/>}/>
+       <Route path='/energy' element={<Energy/>}/>
+       <Route path='/leetcode' element={<Leetcode/>}/>
+
+
       </Routes>
       <Footer/>
     </>
