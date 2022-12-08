@@ -28,7 +28,7 @@ let StudyData = [
     {
         img: graph,
         tittle: 'Graph Theory',
-        desc: 'Graph Theory Unit-4 Discreate Structure || Graph = (V,E) means, Graph is a collection of set of vertex and edegs.',
+        desc: 'Graph Theory Unit-4 Discreate Structure || Graph = (V,E) means, Graph is a collection of set of V & E',
         visit: '/graph'
     },
     
@@ -51,8 +51,15 @@ let StudyData = [
     {
         img: leetcode,
         tittle: 'Leetcode Problems',
-        desc: 'LeetCode is the best platform to help you enhance your skills, expand your knowledge and prepare for technical interviews',
+        desc: 'LeetCode is the best platform to help you enhance your skills, Expand your knowledge and prepare.',
         visit: '/leetcode'
+    },
+
+    {
+        img: dsa,
+        tittle: 'OOPS',
+        desc: 'Oops stands for Object Oriented Programming Language, And the main purpose of oops is:-',
+        visit: '/oops'
     },
 ]
 

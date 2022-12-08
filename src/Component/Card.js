@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 function Card(mj) {
   return (
     <>
-        <div className="col-11 col-md-4 mx-auto">
+        <div className="col-12 col-md-6 col-lg-4 ">
 
         <div class="card ">
   <img src={mj.img} class="card-img-top cardimg" alt="..."/>

@@ -8,7 +8,10 @@ function LinkedList() {
         </div>
         <div className="container-fluid">
             <div className="row detail">
-            <p>In mathematics, graph theory is the study of graphs, which are mathematical structures used to model pairwise relations between objects. A graph in this context is made up of vertices which are connected by edges</p>
+            <p>Linked List is a linear data structure which include the se ries of connected node, Here every NODE devided into two parts first where we stored the DATA and Second where we stored the Address of the next Node.</p>
+            <pre>
+               
+            </pre>
             </div>
         </div>
     </div>

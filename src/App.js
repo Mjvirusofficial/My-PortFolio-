@@ -15,6 +15,7 @@ import LinkedList from './Pages/Study/LinkedList';
 import Graph from './Pages/Study/Graph';
 import Energy from './Pages/Study/Energy';
 import Leetcode from './Pages/Study/Leetcode';
+import Oops from './Pages/Study/Oops';
 function App() {
   return (
     <>
@@ -32,7 +33,8 @@ function App() {
        <Route path='/graph' element={<Graph/>}/>
        <Route path='/energy' element={<Energy/>}/>
        <Route path='/leetcode' element={<Leetcode/>}/>
-
+       <Route path='/oops' element={<Oops/>}/>
+      
 
       </Routes>
       <Footer/>
